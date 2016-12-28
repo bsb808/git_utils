@@ -1,6 +1,6 @@
 #!/bin/bash
-MSG="working  geonavtransorm"
+MSG="working towards twist control"
 
-CMDS=('git commit -a -m \"${MSG}\" ' \
+CMDS=("git commit -a -m '${MSG}' " \
     "git push origin master")
 

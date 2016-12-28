@@ -21,7 +21,7 @@ do
     for CMD in "${CMDS[@]}"
     do
 	echo ${CMD}
-	${CMD}
+	eval ${CMD}
     done
 done
 
@@ -33,6 +33,6 @@ do
     for CMD in "${CMDS[@]}"
     do
 	echo ${CMD}
-	${CMD}
+	eval ${CMD}
     done
 done
