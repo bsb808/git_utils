@@ -1,5 +1,5 @@
 #!/bin/bash
-MSG="Functional version of navigation stack - found a UTM X/Y transposition"
+MSG="Tuning navigation stack"
 
 CMDS=("git commit -a -m '${MSG}' " \
     "git push origin master")
