@@ -7,7 +7,8 @@ ROSREPOS=(kingfisher_control \
     kingfisher_gazebo \
     kingfisher_plugins \
     ros_utils \
-    geonav_transform)
+    geonav_transform \
+    usv_gazebo_plugins)
 
 WCD="/home/bsb/WorkingCopies"
 OTHERREPOS=(pypid \
