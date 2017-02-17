@@ -1,5 +1,5 @@
 #!/bin/bash
-MSG="cleaning up"
+MSG="towards pond world"
 
 CMDS=("git commit -a -m '${MSG}' " \
     "git push origin master")
