@@ -1,5 +1,5 @@
 #!/bin/bash
-MSG="towards functional example of USV plugin"
+MSG="New stable version of USV plugin and support packages"
 
 CMDS=("git commit -a -m '${MSG}' " \
     "git push origin master")
