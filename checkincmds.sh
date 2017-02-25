@@ -1,5 +1,5 @@
 #!/bin/bash
-MSG="Working lake world - tweak of USV plugin and xacro collision description"
+MSG="Functional lake world with buoys and camera"
 
 CMDS=("git commit -a -m '${MSG}' " \
     "git push origin master")

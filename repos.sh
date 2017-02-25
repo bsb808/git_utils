@@ -8,7 +8,8 @@ ROSREPOS=(kingfisher_control \
     kingfisher_utils \
     ros_utils \
     geonav_transform \
-    usv_gazebo_plugins )
+    usv_gazebo_plugins \
+    buoyancy_gazebo_plugin)
 #    kingfisher_plugins 
 
 WCD="/home/bsb/WorkingCopies"
