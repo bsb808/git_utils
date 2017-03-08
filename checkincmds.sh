@@ -1,5 +1,5 @@
 #!/bin/bash
-MSG="Functional lake world with buoys and camera"
+MSG="Functioning El Estero simulation with Nav/GPS"
 
 CMDS=("git commit -a -m '${MSG}' " \
     "git push origin master")
