@@ -1,5 +1,5 @@
 #!/bin/bash
-MSG="Functioning El Estero simulation with Nav/GPS"
+MSG="Prep for KF field"
 
 CMDS=("git commit -a -m '${MSG}' " \
     "git push origin master")
