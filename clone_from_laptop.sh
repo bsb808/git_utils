@@ -4,7 +4,7 @@
 # also defines the catkin and working directories
 . ./repos.sh
 
-IP="192.168.131.211"
+IP="192.168.131.221"
 USER="bsb"
 
 cd /home/frl/catkin_ws
@@ -16,11 +16,11 @@ cd /home/frl/catkin_ws
 for REPO in "${ROSREPOS[@]}"
 do 
     echo "--------${REPO}--------"
-    git clone ssh://bsb@$192.168.131.221/~/catkin_ws/${REPO}
+    git clone ssh://${USER}@{IP}/~/catkin_ws/${REPO}
 done
 
 
 for REPO in "${OTHERREPOS[@]}"
 do 
-
+ echo "hi"
 done
