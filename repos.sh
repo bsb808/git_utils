@@ -9,7 +9,9 @@ ROSREPOS=(kingfisher_control \
     ros_utils \
     geonav_transform \
     usv_gazebo_plugins \
-    buoyancy_gazebo_plugin)
+    buoyancy_gazebo_plugin
+    microstrain_3dm_gx5_45)
+
 #    kingfisher_plugins 
 
 WCD="${HOME}/WorkingCopies"
