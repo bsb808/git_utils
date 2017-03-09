@@ -16,7 +16,7 @@ cd /home/frl/catkin_ws
 for REPO in "${ROSREPOS[@]}"
 do 
     echo "--------${REPO}--------"
-    git clone ssh://${USER}@${IP}/home/bsb/catkin_ws/${REPO}
+    git clone ssh://${USER}@${IP}/home/bsb/catkin_ws/${REPO}.git
 done
 
 
