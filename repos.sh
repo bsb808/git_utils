@@ -1,6 +1,6 @@
 #
 
-CATKIN="/home/bsb/catkin_ws"
+CATKIN="${HOME}/catkin_ws"
 
 ROSREPOS=(kingfisher_control \
     kingfisher_navigation \
@@ -12,6 +12,6 @@ ROSREPOS=(kingfisher_control \
     buoyancy_gazebo_plugin)
 #    kingfisher_plugins 
 
-WCD="/home/bsb/WorkingCopies"
+WCD="${HOME}/WorkingCopies"
 OTHERREPOS=(pypid \
     git_utils)
