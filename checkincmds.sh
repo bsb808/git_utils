@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MSG="Updates from KF field work at El Estero"
+MSG="MRC"
 
 
 CMDS=("git commit -a -m '${MSG}' " \
