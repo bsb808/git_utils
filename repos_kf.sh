@@ -1,6 +1,9 @@
 #
 
 CATKIN="${HOME}/catkin_ws"
+CATKINBSB="/home/bsb/catkin_ws"
+WCDBSB="/home/bsb/WorkingCopies"
+
 
 ROSREPOS=(kingfisher_control \
     kingfisher_navigation \
