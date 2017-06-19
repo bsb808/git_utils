@@ -2,7 +2,8 @@
 
 # get two lists of repos from repos.sh
 # also defines the catkin and working directories
-. ./repos.sh
+#. ./repos.sh
+. ./repos_kf.sh
 
 IP="192.168.131.221"
 IP="192.168.1.20"
