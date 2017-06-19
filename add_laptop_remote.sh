@@ -11,7 +11,8 @@ for REPO in "${ROSREPOS[@]}"
 do 
     echo "--------${REPO}--------"
     cd ${CATKIN}/src/${REPO}
-    git remote add laptop git+ssh://bsb@${LAP}/${CATKINBSB}/src/${REPO}
+    #git remote add laptop git+ssh://bsb@${LAP}/${CATKINBSB}/src/${REPO}
+    git remote set-url laptop git+ssh://bsb@${LAP}/${CATKINBSB}/src/${REPO}
 done
 
 
@@ -19,5 +20,6 @@ for REPO in "${OTHERREPOS[@]}"
 do 
     echo "--------${REPO}--------"
     cd ${WCD}/${REPO}
-    git remote add laptop git+ssh://bsb@${LAP}/${WCDBSB}/${REPO}
+    #git remote add laptop git+ssh://bsb@${LAP}/${WCDBSB}/${REPO}
+    git remote set-url laptop git+ssh://bsb@${LAP}/${CATKINBSB}/src/${REPO}
 done
