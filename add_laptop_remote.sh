@@ -4,12 +4,13 @@
 . ./repos_kf.sh
 # get list of commands
 
+LAP="192.168.11.120"
+LAP="192.168.1.20"
 
 for REPO in "${ROSREPOS[@]}"
 do 
     echo "--------${REPO}--------"
     cd ${CATKIN}/src/${REPO}
-    LAP="192.168.11.120"
     git remote add laptop git+ssh://bsb@${LAP}/${CATKINBSB}/src/${REPO}
 done
 
