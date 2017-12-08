@@ -6,13 +6,15 @@ ROSREPOS=(kingfisher_control \
     kingfisher_navigation \
     kingfisher_gazebo \
     kingfisher_utils \
-    ros_utils \
     geonav_transform \
     usv_gazebo_plugins \
-    buoyancy_gazebo_plugin
-    microstrain_3dm_gx5_45 \
-    nre_p3at \
-    nre_multimaster )
+    buoyancy_gazebo_plugin \
+)
+
+
+ #   microstrain_3dm_gx5_45 \
+ #   nre_p3at \
+ #   nre_multimaster )
 
 #    kingfisher_plugins 
 

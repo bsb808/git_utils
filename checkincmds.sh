@@ -1,8 +1,7 @@
 #!/bin/bash
 
-MSG="MRC"
-
+MSG="towards robotx"
 
 CMDS=("git commit -a -m '${MSG}' " \
-    "git push origin master")
+    "git push origin ")
 
